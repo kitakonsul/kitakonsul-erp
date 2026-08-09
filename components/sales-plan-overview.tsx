@@ -1,7 +1,7 @@
 "use client"
 
 import { useMemo, useState } from "react"
-import { Table2, Search, Eye, Play, Pencil, Download } from "lucide-react"
+import { Table2, Search, Play, Pencil, Download } from "lucide-react"
 import { salesPlans, type SalesPlan } from "@/lib/dashboard-data"
 import { StatusBadge } from "@/components/status-badge"
 import { TablePagination } from "@/components/table-pagination"
@@ -196,13 +196,6 @@ export function SalesPlanOverview() {
                   </td>
                   <td className="px-4 py-3.5">
                     <div className="flex items-center justify-end gap-1.5">
-                      <button
-                        type="button"
-                        aria-label={`View ${plan.id}`}
-                        className="flex size-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
-                      >
-                        <Eye className="size-4" />
-                      </button>
                       {plan.status === "ready" && (
                         <button
                           type="button"

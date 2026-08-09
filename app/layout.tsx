@@ -6,9 +6,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Sales Plan & Procurement Planning | ERP',
+  title: 'Planning | ERP',
   description:
-    'Overview of production targets and material requirements — sales plans, procurement projections, and MRP status.',
+    'Overview of production targets and material requirements — planning, procurement projections, and MRP status.',
   generator: 'v0.app',
   icons: {
     icon: [

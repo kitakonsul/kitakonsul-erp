@@ -1,4 +1,4 @@
-import { ClipboardList, CalendarCheck, Eye, TriangleAlert, TrendingUp } from "lucide-react"
+import { ClipboardList, CalendarCheck, TriangleAlert, TrendingUp } from "lucide-react"
 
 function InfoCard({
   title,
@@ -42,7 +42,7 @@ export function KpiCards() {
         </div>
       </InfoCard>
 
-      <InfoCard title="Est. Procurement Cost" icon={<Eye className="size-4" />}>
+      <InfoCard title="Est. Procurement Cost" icon={null}>
         <p className="mt-3 text-2xl font-semibold text-foreground">
           2.5B <span className="text-sm font-normal text-muted-foreground">IDR</span>
         </p>

@@ -9,7 +9,7 @@ export default function DashboardPage() {
       <header className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
         <div>
           <h1 className="text-xl font-semibold text-primary text-balance">
-            Dashboard Sales Plan &amp; Procurement Planning
+            Dashboard Planning
           </h1>
           <p className="mt-1 text-sm text-muted-foreground">Overview of production targets and material requirements</p>
         </div>
@@ -19,7 +19,7 @@ export default function DashboardPage() {
             className="inline-flex items-center justify-center gap-2 rounded-md bg-accent-amber px-4 py-2 text-sm font-semibold text-accent-amber-foreground transition-colors hover:opacity-90"
           >
             <Plus className="size-4" />
-            New Sales Plan
+            New Plan
           </button>
           <button
             type="button"
